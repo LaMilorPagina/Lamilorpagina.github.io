@@ -1,5 +1,5 @@
 .momazo {
-    max-width: 500px;
+    max-width: 500pxpx;
     max-height: 500px;
 }
 .boton-discord {
@@ -60,4 +60,10 @@ footer {
         text-decoration: none;
         color: #000;
     }
+}
+.textmarc {
+    border: 5px solid #000; /* Color y grosor del borde */
+    border-radius: 15px; /* Radio de los bordes redondeados */
+    padding: 10px; /* Espacio entre el borde y el texto */
+    margin: 10px; /* Espacio alrededor del borde */
 }
