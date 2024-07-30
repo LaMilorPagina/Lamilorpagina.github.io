@@ -1,0 +1,29 @@
+.momazo {
+    width: 200;
+    height: auto;
+}
+.boton-discord {
+            border: none;
+            background: none;
+            cursor: pointer;
+            padding: 0;
+        }
+        .boton-discord img {
+            display: block;
+            width: 40px; /* Ajusta el tamaño según sea necesario */
+            height: auto;
+        }
+.contenedor {
+  display: flex;
+  flex-direction: row; /* Ajusta los elementos en una fila */
+  justify-content: space-between; /* Ajusta el espacio entre los elementos */
+}
+
+.item {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  flex: 1; /* Hace que los elementos se distribuyan uniformemente */
+}
