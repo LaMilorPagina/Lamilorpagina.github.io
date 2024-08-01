@@ -84,13 +84,18 @@ footer {
             height: auto;
         }
         .buttons {
-            position: absolute;
-            bottom: 10px; /* Ajusta según el espacio necesario */
-            left: 10px;
-            right: 10px;
-            display: flex;
-            justify-content: space-between;
-        }
+    position: absolute;
+    bottom: 20px; /* Ajusta según el espacio necesario */
+    left: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #000; /* Ajusta el grosor y el color del borde según tu preferencia */
+    width: 200px; /* Establece un ancho fijo para que sea un cuadrado */
+    height: 200px; /* Establece una altura fija igual al ancho para mantener la forma cuadrada */
+    box-sizing: border-box; /* Incluye el borde y el padding en el cálculo del ancho y alto */
+}
+
         .button {
             background: none;
             border: none;
