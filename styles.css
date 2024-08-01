@@ -1,6 +1,7 @@
 .momazo {
-    max-width: 500pxpx;
-    max-height: 500px;
+    max-width: 800px;
+    max-height: 800px;
+    border-radius: 15px;
 }
 .boton-discord {
             border: none;
@@ -67,20 +68,28 @@ footer {
     padding: 10px; /* Espacio entre el borde y el texto */
     margin: 10px; /* Espacio alrededor del borde */
 }
-.button-container {
+..button-container {
             display: flex;
-            gap: 10px; /* Espacio entre botones */
+            gap: 10px;
         }
-        .button-container button {
-            padding: 10px 20px;
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 400px;  /* Ancho de 400px */
+            height: 400px; /* Alto de 400px */
             border: none;
-            border-radius: 20px; /* Bordes redondeados */
+            border-radius: 5px;
+            background-color: #d3d3d3; /* Gris claro */
             cursor: pointer;
-            font-size: 16px;
-            color: #fff;
-            background-color: #6c757d; /* Color de fondo gris */
+            font-size: 100px; /* Tamaño grande para los íconos */
+            color: #333; /* Color del icono */
             transition: background-color 0.3s;
         }
-        .button-container button:hover {
-            background-color: #5a6268; /* Color gris más oscuro al pasar el cursor */
+        .btn:hover {
+            background-color: #b0b0b0; /* Gris un poco más oscuro en hover */
+        }
+        .cancer {
+            width: 1000px;
+            height: 1000px;
         }
