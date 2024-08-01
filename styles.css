@@ -67,3 +67,20 @@ footer {
     padding: 10px; /* Espacio entre el borde y el texto */
     margin: 10px; /* Espacio alrededor del borde */
 }
+.button-container {
+            display: flex;
+            gap: 10px; /* Espacio entre botones */
+        }
+        .button-container button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px; /* Bordes redondeados */
+            cursor: pointer;
+            font-size: 16px;
+            color: #fff;
+            background-color: #6c757d; /* Color de fondo gris */
+            transition: background-color 0.3s;
+        }
+        .button-container button:hover {
+            background-color: #5a6268; /* Color gris más oscuro al pasar el cursor */
+        }
